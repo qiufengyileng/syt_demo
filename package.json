@@ -3,14 +3,16 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite --open",
-    "build": "vue-tsc -b && vite build --sourcemap=true",
-    "preview": "vite preview"
-  },
+"scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "build:no-vue-tsc": "vite build"
+ },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "@types/node": "^22.10.1",
+    "@vitejs/plugin-vue": "^5.2.1",
     "axios": "^1.7.9",
     "element-plus": "^2.9.0",
     "nprogress": "^0.2.0",

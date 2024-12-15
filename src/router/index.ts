@@ -1,5 +1,5 @@
 
-import { createRouter,createWebHistory } from "vue-router"
+import { createRouter,createWebHashHistory } from "vue-router"
 
 const Home = () => import('../view/home/index.vue')
 const hospital = () => import('../view/hospital/index.vue')
@@ -66,7 +66,7 @@ const routes =[
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes,
   scrollBehavior() {
    return { left: 0, top: 0 }
