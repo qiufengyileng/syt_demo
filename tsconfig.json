@@ -1,0 +1,8 @@
+{
+  "files": [],
+  /* 配置@路径 */
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
