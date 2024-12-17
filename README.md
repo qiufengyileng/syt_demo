@@ -8,4 +8,4 @@ Learn more about the recommended Project Setup and IDE Support in the [Vue Docs 
 ## Recommended IDE Setup
 /hosp/hospital/{page}/{limit}
 
-/hosp/hospital/findByHosname/{hosname}
+/hosp/hospital/findByHosname/{hosname}# syt_demo

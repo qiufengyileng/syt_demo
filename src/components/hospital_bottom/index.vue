@@ -42,7 +42,7 @@
     align-items: center;
 
     .left {
-      margin-right: 930px;
+      margin-right: 730px;
       span {
         color: #393838;
         margin-right: 10px;
